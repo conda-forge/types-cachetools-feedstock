@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "7.0.0.20260503"
+  version: "7.0.0.20260518"
 
 package:
   name: types-cachetools
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/t/types-cachetools/types_cachetools-${{ version }}.tar.gz
-  sha256: dfa4dcdf453f397dfc6d69fc0a57423ac1f248393f70aa56b5d05fac2df7a96c
+  sha256: 7730014e4fef0c6f01e2cd0f980f8ce6d1b1d2472c8459c1f382348ec1a6b435
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
