@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "7.0.0.20260518"
+  version: "7.0.0.20260713"
 
 package:
   name: types-cachetools
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/t/types-cachetools/types_cachetools-${{ version }}.tar.gz
-  sha256: 7730014e4fef0c6f01e2cd0f980f8ce6d1b1d2472c8459c1f382348ec1a6b435
+  sha256: f1acf079e9c66a81e096a897ef0b261a82117cf856834e37b4bd0c9a116a076a
 
 build:
   number: 0
